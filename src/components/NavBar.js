@@ -31,6 +31,7 @@ export const NavBar = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#home" className={activePage === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActivePage('home')}>Home</Nav.Link>
                         <Nav.Link href="#about" className={activePage === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActivePage('about')}>About</Nav.Link>
+                        <Nav.Link href="#service" className={activePage === 'service' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActivePage('service')}>Services</Nav.Link>
                         <Nav.Link href="#contact" className={activePage === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActivePage('contact')}>Contact</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
@@ -40,9 +41,6 @@ export const NavBar = () => {
                             {/*<a href="#telegram"><img src={navIcon4} alt=""/></a>*/}
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
-                        {/*<HashLink to='#connect'>*/}
-                        {/*    <button className="vvd"><span>Let's Connect</span></button>*/}
-                        {/*</HashLink>*/}
                     </span>
                 </Navbar.Collapse>
             </Container>
