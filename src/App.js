@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Service} from "./components/Service";
 import {About} from "./components/About";
 import {Contact} from "./components/Contact";
-import Footer from "./components/Footer";
+import {Footer} from "./components/Footer";
 
 function App() {
   return (

@@ -31,9 +31,7 @@ export const Service = () => {
             <Row>
                 <Col size={12}>
                     <h2>Services</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi efficitur nulla et sollicitudin
-                        tempus. Etiam vel massa tortor. Cras dui felis, accumsan eu dapibus nec, tincidunt non
-                        ligula. </p>
+                    <p>List of services available in the dormitory</p>
                     <Tab.Container id={"service-tab"} defaultActiveKey={"first"}>
                         <Nav variant={"pills"} className={"nav-pills mb-5 justify-content-center align-items-center"} id={"pills-tab"}>
                             <Nav.Item>
