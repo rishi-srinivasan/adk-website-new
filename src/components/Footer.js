@@ -1,8 +1,8 @@
 import React from 'react';
+import {Container, Row, Col} from "react-bootstrap";
 import logo from '../assets/image/logo.svg'
 import navIcon2 from '../assets/image/nav-icon2.svg'
 import navIcon3 from '../assets/image/nav-icon3.svg'
-import {Container, Row, Col} from "react-bootstrap";
 
 export const Footer = () => {
     return (
@@ -20,7 +20,7 @@ export const Footer = () => {
                             <a href="https://www.instagram.com/adk20official?igsh=MXByMWl3Z2prbGxycA=="
                                target={"_blank"} rel="noreferrer"><img
                                 src={navIcon3} alt={"Footer Instagram Img"}/></a>
-                            <p>Written and owned by ADK Studentische Selbstverwaltung (SSV)</p>
+                            <p>Created and owned by Studentische Selbstverwaltung(SSV) of ADK</p>
                         </div>
                     </Col>
                 </Row>

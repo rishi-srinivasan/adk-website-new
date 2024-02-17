@@ -1,5 +1,5 @@
-import React from 'react';
 import {Col} from "react-bootstrap";
+import React from 'react';
 
 export const ServiceCard = ({title,description,imgUrl}) => {
     return (

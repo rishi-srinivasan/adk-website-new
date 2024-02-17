@@ -595,6 +595,85 @@ video{
   z-index: -4;
 }
 
+/* FAQ CSS */
+.faq {
+  padding: 50px 0 100px 0;
+  position: relative;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);*/
+
+  h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+  }
+  p{
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+  }
+}
+
+.faq .faq-question{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+  background: #FFFFFF;
+}
+
+.faq .div-question{
+  position: absolute;
+  top: 15%;
+  box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
+}
+
+.faq .new-question{
+  background: #272727;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+
+  h1{
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  span{
+    margin-right: 1.5rem;
+  }
+}
+
+.faq .answerss{
+  background: #1c1c1c;
+  color: #00ffb9;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #00ffb9;
+  border-top: 1px solid #00ffb9;
+  p {
+    font-size: 2rem;
+  }
+}
+
 /* Contact CSS */
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

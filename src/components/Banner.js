@@ -1,6 +1,6 @@
 import {Container, Row, Col} from "react-bootstrap";
-import headerImg from "../assets/image/header-img.svg"
 import {ReactTyped} from "react-typed";
+import headerImg from "../assets/image/header-img.svg"
 //import TrackVisibility from "react-on-screen";
 import 'animate.css'
 //import {isVisible} from "@testing-library/user-event/dist/utils";
@@ -26,7 +26,7 @@ export const Banner = () => {
                                     loop>
                             </ReactTyped></span></h2>
                                 <p>
-                                    A student dormitory located in East Berlin with over 350 residents.
+                                    A student dormitory located in Berlin with over 350 international students.
                                 </p>
                             {/*</div>}*/}
                         {/*</TrackVisibility>*/}

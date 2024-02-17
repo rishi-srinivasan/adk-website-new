@@ -1,9 +1,10 @@
 import React from 'react';
+import {Container, Row, Col, Nav, Tab} from "react-bootstrap";
+import {ServiceCard} from "./ServiceCard";
 import washImg from '../assets/image/project-img1.png'
 import fitnessImg from '../assets/image/project-img2.png'
 import kellerImg from '../assets/image/project-img3.png'
-import {Container, Row, Col, Nav, Tab} from "react-bootstrap";
-import {ServiceCard} from "./ServiceCard";
+
 import colorSharp2 from '../assets/image/color-sharp2.png'
 
 export const Service = () => {

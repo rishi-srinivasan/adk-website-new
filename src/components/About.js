@@ -1,8 +1,8 @@
 import React from 'react';
-import aboutImg from "../assets/image/wohnheim-innen.jpg";
-import aboutVid from "../assets/video/video-2.mp4";
 import {Col, Container, Row} from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
+import aboutImg from "../assets/image/wohnheim-innen.jpg";
+import aboutVid from "../assets/video/video-2.mp4";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -17,7 +17,7 @@ export const About = () => {
                             <Col xs={12} md={6} xl={7}>
                                 <span className="tagline">About the Dormitory</span>
                                 <span className="wrap">
-                                <p>A student dormitory located in East Berlin with over 350 residents.</p>
+                                <p>Wohnheim Allee der Kosmonauten (Adk), located in the Lichtenberg district of Berlin is a student dorm owned by the studierendenwerk (STW) Berlin. </p>
                                     <a href={"https://www.stw.berlin/wohnen/wohnheime/lichtenberg/wh-allee-der-kosmonauten.html"} target={"_blank"} rel="noreferrer">
                                     <button onClick={() => console.log('connect')}>More Info<ArrowRightCircle
                                         size={25}/></button></a>
