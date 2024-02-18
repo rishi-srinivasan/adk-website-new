@@ -26,7 +26,9 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -264,7 +266,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url('./assets/image/banner-bg.png');
-  background-position: center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
