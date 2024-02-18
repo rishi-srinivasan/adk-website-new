@@ -9,7 +9,7 @@ export const NavBar = () => {
     const [scrolled, setScrolled] = useState(false)
     useEffect(() => {
         const onScroll = () => {
-            window.scrollY > 50 ? setScrolled( false) :  setScrolled(true)
+            window.scrollY > 500 ? setScrolled( false) :  setScrolled(true)
         }
         window.addEventListener("scroll", onScroll)
         return () => window.removeEventListener("scroll", onScroll)
@@ -22,7 +22,7 @@ export const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : "unscrolled"}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="Logo" />
+                    <img src={logo || ''} alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
