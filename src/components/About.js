@@ -6,10 +6,10 @@ import aboutVid from "../assets/video/adk-party.mp4";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 export const About = () => {
     return(
         <div className="about" id="about">
-            <div className={"about-overlay"}></div>
             <video src={aboutVid || ''} autoPlay loop muted/>
                 <div className={"about-content"}>
                     <Container>
@@ -24,7 +24,7 @@ export const About = () => {
                                 </span>
                             </Col>
                             <Col xs={12} md={6} xl={5}>
-                            <img src={aboutImg || ''} alt="Header Img"/>
+                                <img src={aboutImg || ''} alt="Header Img"/>
                             </Col>
                         </Row>
                     </Container>
